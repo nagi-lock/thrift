@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-prev:before,
+.slick-next:before {
+  color: white; /* or any color that shows */
+  font-size: 28px;
+  opacity: 1;    /* force visible */
+}
