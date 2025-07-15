@@ -1,19 +1,15 @@
-const products = [
-  {
-    id: 1,
-    name: 'Cargo Jeans',
-    price: 999,
-    image: '/assets/jeans.jpg',
-    category: 'Cargo',
-  },
-  {
-    id: 2,
-    name: 'FCB Jersey',
-    price: 899,
-    image: '/assets/fcb-jersey.jpg',
-    category: 'Jersey',
-  },
-  // Add more...
+import jersey from './products/jersey';
+// import tshirt from './products/tshirt';
+// import shirt from './products/shirt';
+// import jeans from './products/jeans';
+// import cargo from './products/cargo';
+
+const productData = [
+  ...jersey,
+  // ...tshirt,
+  // ...shirt,
+  // ...jeans,
+  // ...cargo,
 ];
 
-export default products;
+export default productData;
