@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HeroSection from './components/HeroSection';
 import CategoryNav from './components/CategoryNav';
 import ProductGrid from './components/ProductGrid';
